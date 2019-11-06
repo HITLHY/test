@@ -13,18 +13,18 @@
 
 <body>
     <div id="vue-app">
-        <>v-for指令 version11 version1</h1>
-            <!-- <ul>
+        <h1>v-for指令 版本1</h1>
+        <!-- <ul>
             <li v-for='(mrCharacter,index) in characters'>
                 {{index}}-{{mrCharacter}}
             </li>
         </ul> -->
 
-            <template v-for='(mrUser,index) in users'>
-                <div v-asdafadsfdsa='(val,key) in mrUser'>
-                    <p>{{key}}:{{val}}</p>aSQDSWAQ
-                </div>
-            </template>
+        <template v-for='(mrUser,index) in users'>
+            <div v-for='(val,key) in mrUser'>
+                <p>{{key}}:{{val}}</p>
+            </div>
+        </template>
 
     </div>
 </body>
